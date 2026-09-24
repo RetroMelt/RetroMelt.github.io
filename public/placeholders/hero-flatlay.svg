@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <rect width="600" height="500" fill="#FFF3D8"/>
+  <!-- notebook -->
+  <rect x="60" y="280" width="200" height="140" rx="8" fill="#438B91"/>
+  <rect x="80" y="300" width="160" height="6" fill="#FFFAEF" opacity="0.8"/>
+  <rect x="80" y="320" width="120" height="6" fill="#FFFAEF" opacity="0.6"/>
+  <!-- cassette -->
+  <rect x="320" y="90" width="220" height="140" rx="14" fill="#4A2418"/>
+  <circle cx="390" cy="160" r="30" fill="#FFF3D8"/>
+  <circle cx="470" cy="160" r="30" fill="#FFF3D8"/>
+  <circle cx="390" cy="160" r="8" fill="#4A2418"/>
+  <circle cx="470" cy="160" r="8" fill="#4A2418"/>
+  <rect x="350" y="200" width="160" height="16" rx="6" fill="#E5A62A"/>
+  <!-- coin -->
+  <circle cx="150" cy="140" r="55" fill="#E5A62A"/>
+  <circle cx="150" cy="140" r="40" fill="none" stroke="#4A2418" stroke-width="4"/>
+  <text x="150" y="152" font-size="34" text-anchor="middle" fill="#4A2418" font-family="Georgia, serif">10</text>
+  <!-- chocolate bar -->
+  <rect x="330" y="290" width="180" height="110" rx="12" fill="#4A2418"/>
+  <g stroke="#FFF3D8" stroke-width="5">
+    <line x1="330" y1="345" x2="510" y2="345"/>
+    <line x1="375" y1="290" x2="375" y2="400"/>
+    <line x1="420" y1="290" x2="420" y2="400"/>
+    <line x1="465" y1="290" x2="465" y2="400"/>
+  </g>
+  <!-- polaroid -->
+  <g transform="rotate(-8 170 400)">
+    <rect x="120" y="350" width="110" height="130" fill="#FFFAEF" stroke="#4A2418" stroke-width="3"/>
+    <rect x="132" y="362" width="86" height="80" fill="#C98228"/>
+  </g>
+</svg>
