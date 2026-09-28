@@ -21,6 +21,7 @@ const CHIPS: ActiveFilter[] = [
   { label: "Toffees", test: (p) => p.category === "toffees" },
   { label: "Gum", test: (p) => p.category === "gum" },
   { label: "Classic Treats", test: (p) => p.category === "classic-treats" },
+  { label: "Back in the Day", test: (p) => p.category === "back-in-the-day" },
   { label: "New Launches", test: (p) => p.badge === "NEW" },
   { label: "Memory Boxes", test: (p) => p.memoryCategory === "memory-boxes" },
 ];

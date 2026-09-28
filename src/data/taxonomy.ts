@@ -15,6 +15,7 @@ export const CATEGORIES = [
   { slug: "toffees", label: "Toffees" },
   { slug: "gum", label: "Gum" },
   { slug: "classic-treats", label: "Classic Treats" },
+  { slug: "back-in-the-day", label: "Back in the Day" },
 ] as const;
 
 export const MEMORY_CATEGORIES = [
